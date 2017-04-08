@@ -7,6 +7,6 @@
     <author email="latent.info@gmail.com" href="http://latent.club/about/">
         tansansu
     </author>
-    <content src="http://latent.club"/>
+    <content src="http://latent.club/"/>
     <access origin="*" />
 </widget>
