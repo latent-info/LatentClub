@@ -35,7 +35,6 @@
     <!-- Core plugins -->
     <plugin name="cordova-plugin-device" />
     <plugin name="cordova-plugin-device-orientation" />
-    <plugin name="cordova-plugin-geolocation" />
     <plugin name="cordova-plugin-globalization" />
     <plugin name="cordova-plugin-inappbrowser" />
     <plugin name="cordova-plugin-network-information" />
@@ -76,6 +75,8 @@
 
     <access origin="http://latent.club"/>
     <allow-navigation href="http://latent.club/*" />
+    <allow-navigation href="http://*/*" />
+    <allow-navigation href="https://*/*" />
     <!-- Added the following intents to support the removal of whitelist code from base cordova to a plugin -->
     <!-- Whitelist configuration. Refer to https://cordova.apache.org/docs/en/edge/guide_appdev_whitelist_index.md.html -->
     <plugin name="cordova-plugin-whitelist" version="1" />
